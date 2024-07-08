@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    outline: none;
+}
+form button{
+    font-weight: bolder;
+    padding: 10px;
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: 0.2s linear;
+}
+form button:hover{
+    opacity: 0.4;
+}
